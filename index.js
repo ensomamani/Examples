@@ -1,5 +1,6 @@
 var string = "hola mundo";
-	function hello()(
+	function hello(){
 		alert(string);
-)
+	}
+
 	hello();
