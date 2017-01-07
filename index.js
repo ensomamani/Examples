@@ -1,6 +1,7 @@
-var string = "hola mundo";
-	function hello(){
-		alert(string);
+var nombre = prompt();
+function enviar() {
+	if (nombre !== "") {
+		alert("Hola " + nombre);
 	}
-
-	hello();
+}
+enviar();
